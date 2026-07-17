@@ -1,0 +1,104 @@
+.landing-wrapper {
+  padding-top: 6.25rem;
+  position: relative;
+  .landing-section {
+    padding-block: 8.563rem 12.25rem;
+    max-width: 85%;
+    margin: auto;
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 63%;
+      padding-top: 2.3rem;
+      .info-tag {
+        background-color: #f0e9c3;
+        border-radius: 1.875rem;
+        padding: 0.625rem 1.25rem;
+        color: #7e6f12;
+        width: fit-content;
+      }
+      .heading {
+        font-family: "EB Garamond", serif;
+        font-weight: 400;
+        font-size: 2.75rem;
+        color: #302d33;
+      }
+      p {
+        margin-block: 0rem 0.5rem;
+        font-size: 1.125rem;
+      }
+    }
+  }
+  .unresolved-section {
+    background: #76b199;
+    position: relative;
+    z-index: 1;
+    .content {
+      max-width: 85%;
+      margin: auto;
+      padding-block: 9.8rem 7.5rem;
+      p {
+        font-size: 2.625rem;
+        color: #023a3a;
+        max-width: 55%;
+        margin-block: 0.625rem 0;
+        font-family: "eb garamond", serif;
+      }
+    }
+  }
+}
+.landing-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../../assets/landing-page-bg.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .landing-wrapper {
+    .landing-section {
+      padding-block: 3.5rem 4.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-wrapper {
+    .landing-section {
+      padding-block: 3.5rem 4.5rem;
+      .content {
+        max-width: unset;
+        .info-tag {
+          width: 65%;
+          font-size: 14px;
+        }
+        .heading {
+          font-size: 42px;
+        }
+      }
+    }
+    .unresolved-section {
+      .content {
+        padding-block: 8.8rem 28rem;
+        div {
+          font-size: 14px;
+          padding-bottom: 10px;
+        }
+        .description {
+          font-size: 32px;
+          line-height: 130%;
+          max-width: 90%;
+        }
+      }
+    }
+  }
+  .landing-wrapper::before {
+    background-image: url("../../../assets/test-img.svg");
+  }
+}

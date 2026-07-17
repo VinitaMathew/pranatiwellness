@@ -1,0 +1,33 @@
+.meet-surabhi {
+  padding-block: 13.375rem 18.938rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: clip;
+
+  .design {
+    position: absolute;
+  }
+  .content {
+    margin-left: 8%;
+    max-width: 29rem;
+    margin-top: 2.3rem;
+    z-index: 1;
+    .title {
+      font-size: 5.25rem;
+      font-family: "EB Garamond", serif;
+      color: #302d33;
+      margin-bottom: 1rem;
+    }
+    .description {
+      font-size: 1rem;
+      color: #302d33;
+      line-height: 150%;
+    }
+  }
+  .profile-img {
+    position: absolute;
+    right: -180px;
+  }
+}

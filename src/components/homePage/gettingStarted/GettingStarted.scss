@@ -1,0 +1,72 @@
+.getting-started-wrapper {
+  max-width: 85%;
+  margin: auto;
+  .getting-started {
+    padding-block: 8.875rem 9.375rem;
+    display: flex;
+    gap: 22rem;
+    .content {
+      display: flex;
+      flex-direction: column;
+      max-width: 56.25rem;
+      margin-top: 2.3rem;
+      .heading {
+        letter-spacing: 20%;
+        color: #023a3a;
+        margin-bottom: 2rem;
+      }
+      .title {
+        font-size: 4rem;
+        font-family: "EB Garamond", serif;
+        color: #302d33;
+        margin-bottom: 1.5rem;
+      }
+      .description {
+        font-size: 1.25rem;
+        color: #302d33;
+        line-height: 150%;
+        margin-bottom: 2.25rem;
+      }
+    }
+  }
+  .target {
+    padding-block: 11.675rem 8.75rem;
+    .heading {
+      letter-spacing: 20%;
+      color: #023a3a;
+      margin-bottom: 1.5rem;
+    }
+    .title {
+      font-size: 3.5rem;
+      font-family: "EB Garamond", serif;
+      color: #302d33;
+      margin-bottom: 7.75rem;
+    }
+    .description {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      border-top: 1px solid #b6b6b6;
+      justify-content: space-between;
+      li {
+        flex: 1;
+        padding-top: 2.5rem;
+        position: relative;
+        font-size: 1.5rem;
+        color: #302d33;
+        padding-right: 5rem;
+      }
+
+      li:not(:last-child)::after {
+        content: "";
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 9.375rem;
+        background: #b6b6b6;
+      }
+    }
+  }
+}

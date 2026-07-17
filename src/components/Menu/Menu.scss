@@ -1,0 +1,134 @@
+.menu-container-desktop,
+.menu-container-mobile {
+  padding-top: 3.75rem;
+  text-align: right;
+  z-index: 1000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: padding 0.3s ease-in-out;
+  font-family: "Manrope", serif;
+  .common-container {
+    display: flex;
+    max-width: 85%;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .logo {
+    width: 10.063rem;
+    height: auto;
+  }
+  .mobile-wrapper-menu {
+    position: fixed;
+    right: 1rem;
+    .menu-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      min-width: unset !important;
+      img {
+        height: 1.5rem;
+      }
+    }
+  }
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.25rem;
+    .nav-links {
+      display: flex;
+      gap: 2.25rem;
+      margin: unset;
+      .nav-link {
+        font-weight: 400;
+        font-size: 1.125rem;
+        list-style: none;
+        cursor: pointer;
+      }
+      .link {
+        text-decoration: none;
+        display: flex;
+        color: #4f4f4f;
+      }
+      .active {
+        //font-weight: 700;
+      }
+      button {
+        margin-top: -1rem;
+        padding-inline: 1rem;
+        border: none;
+      }
+    }
+    .external-links {
+      display: flex;
+      gap: 1.875rem;
+      margin-right: 1.438rem;
+      .link-img {
+        height: 1.5rem;
+        width: auto;
+      }
+    }
+  }
+}
+
+.menu-container-desktop.scrolled {
+  padding-top: 2rem;
+  background-color: unset !important;
+  backdrop-filter: blur(0.625rem);
+  -webkit-backdrop-filter: blur(0.625rem);
+  box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+  .menu-list {
+    padding-bottom: 1rem;
+  }
+}
+.menu-container-desktop {
+  .menu-list {
+    .nav-links {
+      .nav-link {
+        .active {
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+.menu-container-mobile {
+  padding-top: 1.5rem;
+  min-height: 5rem;
+  .logo {
+    max-height: unset;
+    margin-left: 1.5rem;
+  }
+  .common-container {
+    flex-direction: column;
+    .logoLink {
+      max-height: 2.188rem;
+      position: absolute;
+      top: 1.25rem;
+      left: 0rem;
+    }
+  }
+  .menu-list {
+    flex-direction: column;
+    margin-top: 2.813rem;
+    width: 100%;
+    .nav-links {
+      flex-direction: column;
+      padding: unset;
+      gap: unset;
+      margin: 0rem 1.5rem 2.5rem 0rem;
+      .nav-link {
+        border-bottom: 1px solid #c4c4c4;
+        width: 100%;
+        display: flex;
+        padding: 1.5rem 0rem;
+      }
+    }
+  }
+  .book-class-btn {
+    margin-bottom: 2.5rem;
+  }
+}
