@@ -64,14 +64,6 @@
   .landing-wrapper {
     .landing-section {
       padding-block: 3.5rem 4.5rem;
-    }
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .landing-wrapper {
-    .landing-section {
-      padding-block: 3.5rem 4.5rem;
       .content {
         max-width: unset;
         .info-tag {
@@ -100,5 +92,6 @@
   }
   .landing-wrapper::before {
     background-image: url("../../../assets/test-img.svg");
+    background-position-x: center;
   }
 }
