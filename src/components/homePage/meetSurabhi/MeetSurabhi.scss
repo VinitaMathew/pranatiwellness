@@ -1,5 +1,5 @@
 .meet-surabhi {
-  padding-block: 13.375rem 18.938rem;
+  padding-block: 22rem 18.938rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,5 +29,31 @@
   .profile-img {
     position: absolute;
     right: -180px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .meet-surabhi {
+    padding-top: 8rem;
+    flex-direction: column;
+    padding-bottom: 9.3rem;
+    .design {
+      display: none;
+    }
+    .content {
+      margin: unset;
+      max-width: 85%;
+      text-align: center;
+      padding-bottom: 50px;
+      .title {
+        font-size: 56px;
+      }
+      .description {
+        font-size: 18px;
+      }
+    }
+    .profile-img {
+      position: unset;
+    }
   }
 }

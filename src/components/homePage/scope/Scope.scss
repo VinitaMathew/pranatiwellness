@@ -85,7 +85,7 @@
         display: flex;
         justify-content: center;
       }
-      button {
+      span {
         font-size: 1rem;
         font-weight: 700;
         background-color: unset;
@@ -100,6 +100,56 @@
       flex-direction: column;
       justify-content: space-between;
       flex: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .scope-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 3.7rem;
+    .content {
+      .title {
+        font-size: 42px;
+      }
+      .description {
+        font-size: 18px;
+      }
+    }
+    .additional-info {
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 78px;
+      .info-item {
+        margin: 0;
+        background: unset;
+        .info-title {
+          padding-inline: 0;
+          text-align: center;
+        }
+
+        .info-description {
+          padding-left: 10px;
+          li {
+            font-size: 18px;
+            .img-wrapper {
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+      }
+      .contact-wrapper {
+        margin-inline: 0;
+        padding-left: 24px;
+        align-items: unset;
+        padding-right: 50px;
+        .img-wrapper {
+          width: 165px;
+          height: 40px;
+          margin-top: 12px;
+        }
+      }
     }
   }
 }

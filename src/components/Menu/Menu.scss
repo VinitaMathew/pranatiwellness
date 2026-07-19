@@ -37,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 1.25rem;
+    z-index: 1001;
     .nav-links {
       display: flex;
       gap: 2.25rem;
@@ -50,7 +51,7 @@
       .link {
         text-decoration: none;
         display: flex;
-        color: #4f4f4f;
+        color: black;
       }
       .active {
         //font-weight: 700;
@@ -97,7 +98,7 @@
 
 .menu-container-mobile {
   padding-top: 1.5rem;
-  min-height: 5rem;
+  min-height: 3rem;
   .logo {
     max-height: unset;
     margin-left: 1.5rem;
@@ -119,7 +120,7 @@
       flex-direction: column;
       padding: unset;
       gap: unset;
-      margin: 0rem 1.5rem 2.5rem 0rem;
+      margin: 1rem 1.5rem 2.5rem 0rem;
       .nav-link {
         border-bottom: 1px solid #c4c4c4;
         width: 100%;
@@ -130,5 +131,11 @@
   }
   .book-class-btn {
     margin-bottom: 2.5rem;
+  }
+  button {
+    padding-top: 5px;
+  }
+  .contact-button {
+    margin-top: 2.2rem !important;
   }
 }

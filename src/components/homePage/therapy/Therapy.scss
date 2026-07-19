@@ -7,6 +7,7 @@
   );
   .heading {
     letter-spacing: 20%;
+    color: #023a3a;
   }
   .content {
     text-align: center;
@@ -99,5 +100,85 @@
     margin-top: 8.55rem;
     display: flex;
     gap: 6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .therapy-intro-wrapper {
+    background: linear-gradient(to bottom, #dfd4c4 74%, transparent 74%);
+    .heading {
+      font-size: 0.875rem;
+    }
+    .content {
+      padding-top: 7.5rem;
+      max-width: unset;
+      .description {
+        font-size: 2rem;
+        max-width: 72%;
+        margin: auto;
+        letter-spacing: 1%;
+        margin-top: 24px;
+      }
+    }
+    img {
+      margin-top: -4rem;
+    }
+  }
+  .therapy-process-wrapper {
+    padding-bottom: 0;
+    .heading {
+      font-size: 14px;
+    }
+    .content {
+      padding-top: 6.5rem;
+      max-width: 75%;
+
+      .description {
+        font-size: 18px;
+      }
+    }
+    .process-steps {
+      flex-direction: column;
+      margin-inline: 2.25rem;
+      margin-top: 56px;
+      img {
+        display: none;
+      }
+      .step {
+        max-width: 100%;
+        .step-number {
+          font-size: 80px;
+        }
+        .step-title {
+          font-size: 32px;
+        }
+        .step-description {
+          font-size: 18px;
+          padding-bottom: 56px;
+        }
+      }
+    }
+  }
+  .approach-wrapper {
+    padding-top: 5rem;
+    .content {
+      .heading {
+        font-size: 14px;
+      }
+      .title {
+        font-size: 42px;
+      }
+      .description {
+        font-size: 18px;
+      }
+    }
+    .approach-details {
+      flex-direction: column-reverse;
+      margin-top: 40px;
+      gap: 50px;
+      .accordion-wrapper {
+        margin-top: 0 !important;
+      }
+    }
   }
 }

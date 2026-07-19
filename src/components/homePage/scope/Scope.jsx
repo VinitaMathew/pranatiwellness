@@ -83,7 +83,7 @@ export default function Scope(props) {
             <div>
               Need psychiatric evaluation, testing, or medication support? We
               can help connect you with the appropriate professionals.{" "}
-              <button onClick={props.scrollToContact}>Contact us</button>
+              <span onClick={props.scrollToContact}>Contact us</span>
             </div>
           </div>
         </div>

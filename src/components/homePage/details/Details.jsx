@@ -1,8 +1,12 @@
 import "./Details.scss";
 import NotEqual from "../../../assets/not-equal.svg";
 import { useInView } from "react-intersection-observer";
+import { useState } from "react";
 
 const Details = () => {
+  const [isTab] = useState(
+    window.matchMedia("only screen and (min-width:1024px)").matches,
+  );
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -42,6 +46,7 @@ const Details = () => {
             color: "#023A3A",
             letterSpacing: "20%",
           }}
+          className="title"
         >
           MANY CLIENTS WHO REACH OUT TO US ARE:
         </div>
@@ -50,8 +55,17 @@ const Details = () => {
         <div className="not-equal">
           <img src={NotEqual} alt="" />
         </div>
-        <div>Yet repeatedly encountering similar</div>
-        <div>emotional or relational difficulties</div>
+        {isTab ? (
+          <>
+            <div>Yet repeatedly encountering similar</div>
+            <div>emotional or relational difficulties</div>
+          </>
+        ) : (
+          <div style={{ lineHeight: "150%" }}>
+            Yet repeatedly encountering similar emotional or relational
+            difficulties
+          </div>
+        )}
       </div>
       <div
         ref={ref2}
@@ -81,6 +95,7 @@ const Details = () => {
             color: "#023A3A",
             letterSpacing: "20%",
           }}
+          className="title"
         >
           IF YOU HAVE FOUND YOURSELF QUESTIONING
         </div>

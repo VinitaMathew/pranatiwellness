@@ -122,7 +122,7 @@ const Therapy = React.forwardRef((props, processRef) => {
           }
         >
           <img src={Approach} alt="" />
-          <div style={{ marginTop: "4rem" }}>
+          <div style={{ marginTop: "4rem" }} className="accordion-wrapper">
             {accordionItems.map((item, index) => (
               <AccordionRow
                 key={index}
@@ -151,8 +151,14 @@ const AccordionRow = ({ item, isLast }) => {
   };
 
   useEffect(() => {
-    setBodyHeight(bodyRef.current.scrollHeight);
-    setOpen(true);
+    const timer = setTimeout(() => {
+      if (bodyRef.current) {
+        setBodyHeight(bodyRef.current.scrollHeight);
+        setOpen(true);
+      }
+    }, 50); // small delay
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (

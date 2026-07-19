@@ -9,12 +9,7 @@ export default function Routing() {
   const processRef = useRef(null);
   const aboutRef = useRef(null);
   const beginRef = useRef(null);
-  const scrollToHome = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+
   const scrollToContact = () => {
     if (contactRef.current) {
       contactRef.current.scrollIntoView({ behavior: "smooth" });
