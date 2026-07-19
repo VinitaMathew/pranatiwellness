@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/pranatiwellness/static/css/main.94f99d0c.css",
+    "main.js": "/pranatiwellness/static/js/main.144cd364.js",
+    "static/js/453.614ccef3.chunk.js": "/pranatiwellness/static/js/453.614ccef3.chunk.js",
+    "static/media/chair.svg": "/pranatiwellness/static/media/chair.1b458a16739ff17a15d2e99fa5addfc4.svg",
+    "static/media/test-img.svg": "/pranatiwellness/static/media/test-img.4e87d896942ab7ba13fb.svg",
+    "static/media/landing-page-bg.svg": "/pranatiwellness/static/media/landing-page-bg.d26c167ca5546ad5c76b.svg",
+    "static/media/surabhi.svg": "/pranatiwellness/static/media/surabhi.d26227a8cc91bead9b438a22f42cd760.svg",
+    "static/media/approach-img.svg": "/pranatiwellness/static/media/approach-img.51e25c26ecbec13a6567be68c93854f2.svg",
+    "static/media/logo.svg": "/pranatiwellness/static/media/logo.d7fef7ff9eed608c9cd98ea5bbf7673d.svg",
+    "static/media/getting-started.svg": "/pranatiwellness/static/media/getting-started.7f6f956339f7f226492c67ca5b5fa2c3.svg",
+    "index.html": "/pranatiwellness/index.html",
+    "static/media/process-arrow.svg": "/pranatiwellness/static/media/process-arrow.6ebf7abdef52d95ef6e422f3457cddc7.svg",
+    "static/media/comma.svg": "/pranatiwellness/static/media/comma.48fdac1e4f437bd7e9ef.svg",
+    "static/media/info.svg": "/pranatiwellness/static/media/info.c5da9a1541afb406adc41236572b1bb1.svg",
+    "static/media/meet-design.svg": "/pranatiwellness/static/media/meet-design.a5f348d4a14d9caadfae627b5b87760e.svg",
+    "static/media/arrow-right.svg": "/pranatiwellness/static/media/arrow-right.b23842cdcf5fcfe4e323058511dac709.svg",
+    "static/media/cross.svg": "/pranatiwellness/static/media/cross.a03e5cb9357ce39e5e6d97bed8e64cd4.svg",
+    "static/media/not-equal.svg": "/pranatiwellness/static/media/not-equal.932c924c7d474ed585ebb047127c9ed7.svg",
+    "static/media/tick.svg": "/pranatiwellness/static/media/tick.4074619f6c7217e7caa8dee52a1a51cd.svg",
+    "static/media/divider.svg": "/pranatiwellness/static/media/divider.16931adc3b40ed11c3894f888f132927.svg",
+    "main.94f99d0c.css.map": "/pranatiwellness/static/css/main.94f99d0c.css.map",
+    "main.144cd364.js.map": "/pranatiwellness/static/js/main.144cd364.js.map",
+    "453.614ccef3.chunk.js.map": "/pranatiwellness/static/js/453.614ccef3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94f99d0c.css",
+    "static/js/main.144cd364.js"
+  ]
+}
