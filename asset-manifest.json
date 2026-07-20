@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pranatiwellness/static/css/main.4d7ea40e.css",
+    "main.css": "/pranatiwellness/static/css/main.f314ff37.css",
     "main.js": "/pranatiwellness/static/js/main.144cd364.js",
     "static/js/453.614ccef3.chunk.js": "/pranatiwellness/static/js/453.614ccef3.chunk.js",
     "static/media/chair.svg": "/pranatiwellness/static/media/chair.1b458a16739ff17a15d2e99fa5addfc4.svg",
@@ -20,12 +20,12 @@
     "static/media/not-equal.svg": "/pranatiwellness/static/media/not-equal.932c924c7d474ed585ebb047127c9ed7.svg",
     "static/media/tick.svg": "/pranatiwellness/static/media/tick.4074619f6c7217e7caa8dee52a1a51cd.svg",
     "static/media/divider.svg": "/pranatiwellness/static/media/divider.16931adc3b40ed11c3894f888f132927.svg",
-    "main.4d7ea40e.css.map": "/pranatiwellness/static/css/main.4d7ea40e.css.map",
+    "main.f314ff37.css.map": "/pranatiwellness/static/css/main.f314ff37.css.map",
     "main.144cd364.js.map": "/pranatiwellness/static/js/main.144cd364.js.map",
     "453.614ccef3.chunk.js.map": "/pranatiwellness/static/js/453.614ccef3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d7ea40e.css",
+    "static/css/main.f314ff37.css",
     "static/js/main.144cd364.js"
   ]
 }
