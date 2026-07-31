@@ -2,7 +2,7 @@
   "name": "pranatiwellness",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://VinitaMathew.github.io/pranatiwellness",
+  "homepage": "https://www.pranatiwellness.com",
   "dependencies": {
     "@react-aria/button": "^3.15.1",
     "@react-aria/ssr": "^3.10.1",

@@ -120,6 +120,7 @@
       flex-direction: column;
       gap: 2rem;
       margin-top: 78px;
+      max-width: 100%;
       .info-item {
         margin: 0;
         background: unset;
@@ -136,16 +137,18 @@
               width: 24px;
               height: 24px;
             }
+            div {
+              max-width: 80%;
+            }
           }
         }
       }
       .contact-wrapper {
         margin-inline: 0;
-        padding-left: 24px;
+        padding-inline: 24px;
         align-items: unset;
-        padding-right: 50px;
         .img-wrapper {
-          width: 165px;
+          width: 205px;
           height: 40px;
           margin-top: 12px;
         }

@@ -198,7 +198,7 @@ const AccordionRow = ({ item, isLast }) => {
         <div
           style={{
             overflow: "hidden",
-            maxHeight: open ? bodyHeight : 0,
+            maxHeight: open ? "200px" : 0,
             transition: "max-height 300ms ease",
           }}
         >

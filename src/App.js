@@ -2,7 +2,12 @@ import Routing from "./components/Routing/Routing";
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      // style={{
+      //   background: "#eceade",
+      // }}
+    >
       <Routing />
     </div>
   );

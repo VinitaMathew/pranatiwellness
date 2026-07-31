@@ -1,6 +1,7 @@
 .routingContainer {
   font-family: "Manrope", serif;
-  background: #eceade;
+  max-width: 2000px;
+  margin: auto;
   button {
     background: #023a3a;
     color: white;
@@ -10,6 +11,7 @@
     font-size: 1.25rem;
     width: fit-content;
     cursor: pointer;
+    border: none;
   }
   h2 {
     font-family: "Manrope", serif;

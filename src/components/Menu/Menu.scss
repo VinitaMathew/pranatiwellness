@@ -28,6 +28,7 @@
       border: none;
       cursor: pointer;
       min-width: unset !important;
+      padding-right: 20px;
       img {
         height: 1.5rem;
       }
@@ -79,12 +80,14 @@
   background-color: unset !important;
   backdrop-filter: blur(0.625rem);
   -webkit-backdrop-filter: blur(0.625rem);
-  box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.2);
   .menu-list {
     padding-bottom: 1rem;
   }
 }
 .menu-container-desktop {
+  max-width: 2000px;
+  margin: auto;
   .menu-list {
     .nav-links {
       .nav-link {
