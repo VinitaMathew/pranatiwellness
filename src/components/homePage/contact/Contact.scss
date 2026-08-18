@@ -30,6 +30,11 @@
       font-size: 1.188rem;
       color: #302d33;
       max-width: max-content;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
     }
     .divider {
       display: none;

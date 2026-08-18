@@ -18,12 +18,18 @@ const Contact = React.forwardRef((props, contactRef) => {
         <div className="message">YOU DON'T HAVE TO NAVIGATE THIS ALONE.</div>
         <p>Reach out to begin a conversation about therapy.</p>
         <ul>
-          <li>Call us @ 8884629182</li>
+          <li>
+            <a href="tel:+918884629182">Call us @ 8884629182</a>
+          </li>
           <li className="line">|</li>
           <li className="divider">
             <img src={Divider}></img>
           </li>
-          <li>Email us @ pranatiwellness@gmail.com</li>
+          <li>
+            <a href="mailto:pranatiwellness@gmail.com">
+              Email us @ pranatiwellness@gmail.com
+            </a>
+          </li>
           <li className="line">|</li>
           <li className="divider">
             <img src={Divider}></img>
