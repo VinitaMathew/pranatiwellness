@@ -28,7 +28,17 @@ const Contact = React.forwardRef((props, contactRef) => {
           <li className="divider">
             <img src={Divider}></img>
           </li>
-          <li>Follow us on Instagram @PranathiWellness</li>
+          <li
+            style={{ cursor: "pointer" }}
+            onClick={() =>
+              window.open(
+                "https://www.instagram.com/pranatiwellness?igsh=MTJmdjh0b3VlZHk2YQ%3D%3D",
+                "_blank",
+              )
+            }
+          >
+            Follow us on Instagram @pranatiwellness
+          </li>
         </ul>
       </div>
     </div>
