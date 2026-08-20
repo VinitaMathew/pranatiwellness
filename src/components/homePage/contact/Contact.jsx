@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.scss";
 import { useInView } from "react-intersection-observer";
 import Divider from "../../../assets/divider.svg";
+import Arrow from "../../../assets/arrow-up-right.svg";
 
 const Contact = React.forwardRef((props, contactRef) => {
   const [ref, inView] = useInView({
@@ -19,7 +20,10 @@ const Contact = React.forwardRef((props, contactRef) => {
         <p>Reach out to begin a conversation about therapy.</p>
         <ul>
           <li>
-            <a href="tel:+918884629182">Call us @ 8884629182</a>
+            <a href="tel:+918884629182">
+              Call us @ 8884629182{" "}
+              <img style={{ marginBottom: "-5px" }} src={Arrow}></img>
+            </a>
           </li>
           <li className="line">|</li>
           <li className="divider">
@@ -27,23 +31,22 @@ const Contact = React.forwardRef((props, contactRef) => {
           </li>
           <li>
             <a href="mailto:pranatiwellness@gmail.com">
-              Email us @ pranatiwellness@gmail.com
+              Email us @ pranatiwellness@gmail.com{" "}
+              <img style={{ marginBottom: "-5px" }} src={Arrow}></img>
             </a>
           </li>
           <li className="line">|</li>
           <li className="divider">
             <img src={Divider}></img>
           </li>
-          <li
-            style={{ cursor: "pointer" }}
-            onClick={() =>
-              window.open(
-                "https://www.instagram.com/pranatiwellness?igsh=MTJmdjh0b3VlZHk2YQ%3D%3D",
-                "_blank",
-              )
-            }
-          >
-            Follow us on Instagram @pranatiwellness
+          <li>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/pranatiwellness?igsh=MTJmdjh0b3VlZHk2YQ%3D%3D"
+            >
+              Follow us on Instagram @pranatiwellness{" "}
+              <img style={{ marginBottom: "-5px" }} src={Arrow}></img>
+            </a>
           </li>
         </ul>
       </div>
