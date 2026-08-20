@@ -32,7 +32,7 @@ const Contact = React.forwardRef((props, contactRef) => {
           <li>
             <a href="mailto:pranatiwellness@gmail.com">
               Email us @ pranatiwellness@gmail.com{" "}
-              <img style={{ marginBottom: "-5px" }} src={Arrow}></img>
+              <img style={{ marginBottom: "-6px" }} src={Arrow}></img>
             </a>
           </li>
           <li className="line">|</li>
@@ -45,7 +45,7 @@ const Contact = React.forwardRef((props, contactRef) => {
               href="https://www.instagram.com/pranatiwellness?igsh=MTJmdjh0b3VlZHk2YQ%3D%3D"
             >
               Follow us on Instagram @pranatiwellness{" "}
-              <img style={{ marginBottom: "-5px" }} src={Arrow}></img>
+              <img style={{ marginBottom: "-6px" }} src={Arrow}></img>
             </a>
           </li>
         </ul>
