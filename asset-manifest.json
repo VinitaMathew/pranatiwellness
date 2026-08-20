@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28428956.css",
-    "main.js": "/static/js/main.eb234815.js",
+    "main.js": "/static/js/main.55ef2c7c.js",
     "static/js/453.614ccef3.chunk.js": "/static/js/453.614ccef3.chunk.js",
     "static/media/chair.svg": "/static/media/chair.1b458a16739ff17a15d2e99fa5addfc4.svg",
     "static/media/test-img.svg": "/static/media/test-img.4e87d896942ab7ba13fb.svg",
@@ -15,18 +15,18 @@
     "static/media/comma.svg": "/static/media/comma.48fdac1e4f437bd7e9ef.svg",
     "static/media/info.svg": "/static/media/info.c5da9a1541afb406adc41236572b1bb1.svg",
     "static/media/meet-design.svg": "/static/media/meet-design.a5f348d4a14d9caadfae627b5b87760e.svg",
-    "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.68bf709dac44d591ed2134b726b6f84f.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.b23842cdcf5fcfe4e323058511dac709.svg",
+    "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.7e4870e928e0cdbae16788245a0b46d1.svg",
     "static/media/cross.svg": "/static/media/cross.a03e5cb9357ce39e5e6d97bed8e64cd4.svg",
     "static/media/not-equal.svg": "/static/media/not-equal.932c924c7d474ed585ebb047127c9ed7.svg",
     "static/media/tick.svg": "/static/media/tick.4074619f6c7217e7caa8dee52a1a51cd.svg",
     "static/media/divider.svg": "/static/media/divider.16931adc3b40ed11c3894f888f132927.svg",
     "main.28428956.css.map": "/static/css/main.28428956.css.map",
-    "main.eb234815.js.map": "/static/js/main.eb234815.js.map",
+    "main.55ef2c7c.js.map": "/static/js/main.55ef2c7c.js.map",
     "453.614ccef3.chunk.js.map": "/static/js/453.614ccef3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28428956.css",
-    "static/js/main.eb234815.js"
+    "static/js/main.55ef2c7c.js"
   ]
 }
